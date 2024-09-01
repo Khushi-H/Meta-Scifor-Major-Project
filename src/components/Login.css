@@ -1,0 +1,68 @@
+body{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY5ImdBuCoSqbapu5z_xaTJPAP5h7HdcAU9SbSFKyxBKLeQ0AY0q-mxzTti11aJ9qGyWw&usqp=CAU") no-repeat center center fixed;
+  background-size: cover;
+}
+.login{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.auth-container{
+  background-color: #ffffff4d;
+  padding: 30px;
+  border: 2px solid rgb(129,121,121);
+  border-radius: 4px;
+}
+/* .auth-container {
+    max-width: 400px;
+    margin: 12px;
+    margin-bottom: 60px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  } */
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container label {
+    margin-bottom: 1rem;
+  }
+  
+  .auth-container input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* .auth-container button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #1773EA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  } */
+  .auth-container button{
+    background-color: #1773EA;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  .form2{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    /* border: 2px solid rgb(129,121,121);
+    border-radius: 4px; */
+  }

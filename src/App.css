@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todo-list{
+  width: 100%;
+ 
+}
+input{
+  width: 100%;
+  padding: 5px;
+  
+
+}
+p{
+  font-size: 25px;
+  color:rgb(150, 98, 8);
+  font-weight: 500;
+}
+.message{
+  text-align: center;
+
+}
+.kp-row{
+  /* background-color: bisque; */
+  margin: 10px 5px; 
+
+}
+
+
+.kp-button{
+  
+  padding: 10px;
+  /* margin-left: 5px; */
+  margin-right: 15px;
+  
+  cursor: pointer;
+  width: 55px;
+  /* min-width: 80px; */
+}
+
+
+@media screen {
+  .kp-button{
+    margin-top: 7px;
+  }
+  /* input{
+    margin-bottom: 25px;
+  } */
+}
+

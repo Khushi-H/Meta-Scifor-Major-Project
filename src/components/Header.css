@@ -1,0 +1,39 @@
+.Header-container{
+  width: 100%;
+  background: url("https://img.freepik.com/premium-photo/notepad-blue-background-3d-render_975254-478.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 12px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+.todoHeading{
+    font-size: 40px;
+    text-align: Left;
+  font-weight: 700;
+  padding-top: 0px;
+  /* margin: 10px; */
+  /* margin-bottom: 25px; */
+}
+.welcome-msg{
+  
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom:15px; 
+  margin-right:120px;
+  text-align: center;
+  padding-bottom: 70px; 
+}
+
+.paraheading{
+  text-align: left;
+  font-size: 20px;
+}
+.logout-btn{
+  width: 100px;
+ 
+}
+span{
+  font-size: 25px;
+  color:green
+}
